@@ -5,7 +5,26 @@
 
       <div class="introduce">
         <h1>About Me</h1>
-        <p>heelo heelo worldheelohehlo wooheelo wworldheeloheelo worldheeloheelo worldheeloheelo worldheeloheelo worldheeloheelo worldheeloheelo worldheeloheelo worldheeloheelo worldheeloheelo worldheeloheelo worldheeloheelo worldheeloheelo worldheeloheelo worldheeloheelo worldheeloheelo worldheeloheelo worldheeloheelo worldheeloheelo worldheeloheelo worldheeloheelo worldheelo worldheeloheelo worldheeloheelo worldheeloheelo worldheeloheelo worldheeloheelo worldheeloheelo worldheeloheelo worldheeloheelo worldheeloheelo worldheeloheelo worldheeloheelo worldheeloheelo worldheeloheelo worldheeloheelo worldheeloheelo worldheeloheelo worldheeloheelo worldheeloheelo worldheeloheelo worldheeloheelo worldheeloheelo worldheeloheelo worldheeloheelo worldheeloheelo worldheeloheelo worldheeloheelo worldheeloheelo worldheeloheeloheelo worldheeloheelo worldheeloheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo worldheelo world</p>
+        <p>
+          Hi,My name is Yuhang Chen,You can call me luis.I`m currentlly working at IT Department in AVGD Co., Ltd, GuangZhou,China.A Company that foucs on Lighting industry,e-commerce,
+          Home & Garden,clothing industry,and more.
+          <br>Vue.js and React.js is our two main frameWork in the our team,here is a list of front-end technologies our team used in the everyday`s work
+        </p>
+        <el-card class="box-card">
+          <div slot="header" class="clearfix">
+            <h1 class="skill_list_title">Skill List</h1>
+          </div>
+          <ol>
+            <li>Vue.js</li>
+            <li>React.js</li>
+            <li>node.js</li>
+            <li>webpack</li>
+            <li>MySql</li>
+            <li>MongoDB</li>
+            <li>babel</li>
+            <li>React Native</li>
+          </ol>
+        </el-card>
       </div>
     </div>
     <div class="switcher">
@@ -156,6 +175,7 @@ $web-heartWidth: 1226px; //
         @include title-style;
       }
       p {
+        font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
         margin: 0 auto;
         padding: 20px;
         text-indent: 50px;
@@ -193,7 +213,7 @@ $web-heartWidth: 1226px; //
     height: 30px;
     line-height: 30px;
     h1 {
-       @include title-style;
+      @include title-style;
     }
   }
   .skillPanel {
@@ -238,5 +258,29 @@ $web-heartWidth: 1226px; //
   transform: translate(0, -8px);
   transition: all 0.8s ease;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+}
+</style>
+
+<style scoped>
+>>> .is-always-shadow {
+  font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+  margin: 0 auto;
+  padding: 20px;
+  text-indent: 50px;
+  line-height: 30px;
+  word-spacing: 10px;
+  text-align: start;
+  border: 1px solid #ebeef5;
+  background-color: #fff;
+  color: #303133;
+  transition: 0.3s;
+  box-shadow: 7px 7px 10px 0 rgba(56, 56, 56, 0.21);
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+.skill_list_title{
+  padding-top: 15px;
+  margin-top: 0 !important;
 }
 </style>
