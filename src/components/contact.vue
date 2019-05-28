@@ -131,9 +131,7 @@ export default {
     submitForm(formName) {
       this.$refs[formName].validate(valid => {
         if (valid) {
-          alert("submit!");
-          console.log(this.ruleForm.name);
-          // put data to mysql start
+          this.popoverBox()
           this.$axios
             .post()
             .then(result => {
@@ -155,7 +153,19 @@ export default {
     },
     resetForm(formName) {
       this.$refs[formName].resetFields();
+    },
+    popoverBox(){
+      this.$alert('Sorry,Because this is a static website,(no back-end support),If you want to connect me,please send me a emial or click the icon at the of bottom website:)', 'Message From Luis', {
+          confirmButtonText: 'Ok',
+          callback: action => {
+            this.$message({
+              type: 'info',
+              message: `action: ${ action }`
+            });
+          }
+        });
     }
+    
   }
 };
 </script>

@@ -47,25 +47,25 @@
           </li>
           <li>
             <img src="../assets/pic/sql.png" alt>
-            <el-progress type="circle" :percentage="25"></el-progress>
+            <el-progress type="circle" :percentage="79"></el-progress>
           </li>
         </ul>
         <ul class="skillUl">
           <li>
             <img src="../assets/pic/vue.png" alt>
-            <el-progress type="circle" :percentage="25"></el-progress>
+            <el-progress type="circle" :percentage="86"></el-progress>
           </li>
           <li>
             <img src="../assets/pic/bootstrap.png" alt>
-            <el-progress type="circle" :percentage="25"></el-progress>
+            <el-progress type="circle" :percentage="69"></el-progress>
           </li>
           <li>
             <img src="../assets/pic/Sass.png" alt>
-            <el-progress type="circle" :percentage="25"></el-progress>
+            <el-progress type="circle" :percentage="77"></el-progress>
           </li>
           <li>
             <img src="../assets/pic/react.png" alt>
-            <el-progress type="circle" :percentage="25"></el-progress>
+            <el-progress type="circle" :percentage="80"></el-progress>
           </li>
         </ul>
       </div>
@@ -186,7 +186,6 @@ $web-heartWidth: 1226px; //
 
     .switcherBody {
       margin: 0 auto;
-      min-height: 1250px;
     }
   }
 

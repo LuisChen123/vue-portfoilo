@@ -1,44 +1,36 @@
 <template>
   <div class="outer-container">
-  <div class="block">
-  <el-timeline>
-    <el-timeline-item timestamp="2018/4/12" placement="top">
-      <el-card>
-        <h4>更新 Github 模板</h4>
-        <p>王小虎 提交于 2018/4/12 20:46</p>
-      </el-card>
-    </el-timeline-item>
-    <el-timeline-item timestamp="2018/4/3" placement="top">
-      <el-card>
-        <h4>更新 Github 模板</h4>
-        <p>王小虎 提交于 2018/4/3 20:46</p>
-      </el-card>
-    </el-timeline-item>
-    <el-timeline-item timestamp="2018/4/2" placement="top">
-      <el-card>
-        <h4>更新 Github 模板</h4>
-        <p>王小虎 提交于 2018/4/2 20:46</p>
-      </el-card>
-    </el-timeline-item>
-  </el-timeline>
-</div>
+    <div class="block">
+      <el-timeline>
+        <el-timeline-item timestamp="2018-Present" placement="top">
+          <el-card>
+            <h4>Front End Developer</h4>
+            <p>AVGD ,GuangZhou,China</p>
+          </el-card>
+        </el-timeline-item>
+        <el-timeline-item timestamp="2014-2016" placement="top">
+          <el-card>
+            <h4>Marketing Assistant</h4>
+            <p>Tianjin Tianyun Eng.& Tech. Co., Ltd - Tianjin, China</p>        
+          </el-card>
+        </el-timeline-item>
+      </el-timeline>
+    </div>
   </div>
-</template>
+</template> 
 
 <script>
 export default {
-  name: 'working',
-  data () {
-    return {
-    
-    }
+  name: "working",
+  data() {
+    return {};
   }
-}
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang = "scss" scoped>
-.outer-container{
+.outer-container {
   padding: 0;
   margin: 0;
 }

@@ -10,10 +10,10 @@
       <a href="https://www.instagram.com">
         <img src="../../assets/pic/social-instagram.png" alt="ins">
       </a>
-      <a href="https://www.linkedin.com">
+      <a href="https://www.linkedin.com/in/luischen1990">
         <img src="../../assets/pic/social-linkedin.png" alt="linkedin">
       </a>
-       <a href="https://www.linkedin.com">
+       <a href="https://github.com/LuisChen123">
         <img src="../../assets/pic/GitHub.png" alt="GitHub">
       </a>
     </div>

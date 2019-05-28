@@ -9,7 +9,7 @@
         class="secondLine"
       >My name is Yuhang Chen, a front-end web designer from Irvine who creates clean and modern design for clients all over the world.</h1>
       <div class="button-box">
-        <a target="www.baidu.com" href="http://www.baidu.com">
+        <a target="" href="https://github.com/LuisChen123/vue-portfoilo/releases/download/resume/Yuhang-Chen.pdf">
           <el-tooltip content="Download My Resume" placement="top">
             <el-button icon="el-icon-download" circle></el-button>
           </el-tooltip>
@@ -23,7 +23,7 @@
     <div class="carousel-box">
       <el-carousel :interval="4000" type="card">
         <el-carousel-item v-for="item in car_info" :key="item.id">
-          <a href="#" alt="myWorkLinks">
+          <a href="https://github.com/LuisChen123?tab=repositories" alt="myWorkLinks">
             <img :src="item.img_url" alt width="951px" height="500px">
           </a>
         </el-carousel-item>
@@ -59,11 +59,13 @@ export default {
           console.log(result);
           this.car_info = result.data.title;
         } else {
-          console.log(
+          alert(
             "failed to connect the service, please check internet connection."
           );
         }
-      });
+      }).catch(err=>{
+        console.log(err)
+      })
     }
   },
   created() {
@@ -74,30 +76,21 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang = "scss" scoped>
-@mixin tt {
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-}
-
 .topNav {
   background-image: url("../assets/pic/banner.jpg");
   background-repeat: no-repeat;
   background-size: contain;
-
   .carouselTitle {
     margin: 10px auto;
     height: 140px;
     background-color: rgb(238, 238, 238);
     line-height: 140px;
-
     h1 {
       color: black;
       text-align: center;
       background-color: #f5f5f5;
     }
   }
-
   .intro-box {
     text-align: left;
     margin: 8% auto 1em;
