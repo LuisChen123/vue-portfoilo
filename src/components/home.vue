@@ -4,12 +4,12 @@
     <nav-box/>
     <!-- navbar end -->
     <div class="intro-box">
-      <h1 class="firstLine">"Helloooo down there ".</h1>
+      <h1 class="firstLine">"Helloooo there ".</h1>
       <h1
         class="secondLine"
       >My name is Yuhang Chen, a front-end web designer from Irvine who creates clean and modern design for clients all over the world.</h1>
       <div class="button-box">
-        <a target="" href="https://github.com/LuisChen123/vue-portfoilo/releases/download/resume/Yuhang-Chen.pdf">
+        <a target="" href="https://github.com/LuisChen123/vue-portfoilo/releases/download/resume/Yuhang-ChenResume.pdf">
           <el-tooltip content="Download My Resume" placement="top">
             <el-button icon="el-icon-download" circle></el-button>
           </el-tooltip>

@@ -15,14 +15,22 @@
             <h1 class="skill_list_title">Skill List</h1>
           </div>
           <ol>
-            <li>Vue.js</li>
-            <li>React.js</li>
-            <li>node.js</li>
+            <li>Vue.Js</li>
+            <li>React.Js</li>
+            <li>node.Js</li>
             <li>webpack</li>
+            <li>Reudx</li>
+            <li>JQuary</li>
+            <li>BootStrap</li>
             <li>MySql</li>
             <li>MongoDB</li>
-            <li>babel</li>
-            <li>React Native</li>
+            <li>Sass</li>
+            <li>Sass</li>
+            <li>Less</li>
+            <li>CSS3</li>
+            <li>HTML5</li>
+            <li>JS6</li>
+            <li>elementUI</li>
           </ol>
         </el-card>
       </div>
